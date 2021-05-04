@@ -5,7 +5,8 @@ let height = 0
 
 document.getElementById('button').addEventListener('click', calculate)
 
-function calculate () { baseA = document.getElementById('base-a').value
+function calculate () {
+  baseA = document.getElementById('base-a').value
 
   baseB = document.getElementById('base-b').value
 
